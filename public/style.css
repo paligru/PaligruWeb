@@ -1,0 +1,16 @@
+body {
+    margin:50;
+    padding:10;	
+    background-color: #242424;		
+    color:silver;
+    font-family: "Consolas", "Courier New", "monospace";
+    font-size: 16;
+}	
+
+p{
+    background-color:#404040;
+    padding:20;
+    border-radius: 15px;    
+}
+
+#selfismap { height: 600px; }
