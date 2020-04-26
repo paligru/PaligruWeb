@@ -14,7 +14,7 @@ db.loadDatabase();
 
 const port = process.env.PORT || 3000;
 
-app.listen(3000, ()=> console.log('Server says: Listening at 3000'))
+app.listen(port, ()=> console.log(`Server says: Listening at ${port}`))
 app.use(express.static('public'));
 app.use(express.json({limit:"1mb"}));
 
