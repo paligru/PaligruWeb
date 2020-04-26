@@ -2,7 +2,7 @@ function setup(){
     noCanvas();
     const video = createCapture(VIDEO);
     video.size(200,160);		
-    video.position(300,150);
+    video.position(50,250);
     const button = document.getElementById('submitbut');
     button.addEventListener('click', async event =>{
         if ('geolocation' in navigator){
